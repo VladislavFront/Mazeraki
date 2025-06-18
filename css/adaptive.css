@@ -1,0 +1,108 @@
+@media screen and (max-width: 1364px) {
+
+  .biography-link {
+    font-size: 1rem;
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+  
+  .people-photo {
+    width: 300px;
+    height: 450px;
+  }
+
+}
+
+@media screen and (max-width: 900px) {
+
+  .main-title {
+    font-size: 35px;
+  }
+  
+  .main-people-page {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 25px;
+  }
+
+}
+
+@media screen and (max-width: 650px) {
+
+  :root {
+    --headerHeight: 70px;
+  }
+  
+  .header {
+    font-size: 2rem;
+  }
+
+  .main-title {
+    font-size: 28px;
+  }
+
+  .main-people-page {
+    font-size: 18px;
+  }
+
+  .people-photo {
+    width: 100%;
+    height: 650px;
+  }
+
+  /* .block-top {
+    font-size: 0.8rem;
+  }   */
+
+  /* .people-avatar {
+    width: 50px;
+    height: 50px;
+  } */
+
+  /* .block-spec {
+    margin-top: 10px;
+    font-size: 1rem;
+  } */
+
+}
+
+@media screen and (max-width: 450px) {
+
+  .people-block {
+    padding: 20px;
+  }
+
+  .main-title {
+    font-size: 20px;
+  }
+
+}
+@media screen and (max-width: 400px) {
+  
+  /* .people-avatar {
+    width: 35px;
+    height: 35px;
+  } */
+
+  /* .block-top {
+    font-size: 0.7rem;
+  } */
+
+  .people-photo {
+    width: 100%;
+    height: 450px;
+  }
+  
+  .main-people-page {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+  }
+
+}
